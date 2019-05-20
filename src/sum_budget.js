@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {
-    LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend,
+    LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, Brush
 } from 'recharts';
 
 const data = [
@@ -53,7 +53,7 @@ class Sum_budget extends Component {
                 height={400}
                 data={data}
                 margin={{
-                    top: 5, right: 30, left: 20, bottom: 5,
+                    top: 20, right: 30, left: 20, bottom: 20,
                 }}
             >
                 <CartesianGrid strokeDasharray="3 3" />
@@ -61,8 +61,9 @@ class Sum_budget extends Component {
                 <YAxis />
                 <Tooltip />
                 <Legend />
+                <Brush/>
                 {/* <Line type="monotone" dataKey="pv" stroke="#8884d8" activeDot={{ r: 8 }} /> */}
-                <Line type="monotone" dataKey="budget" stroke="#82ca9d" />
+                <Line type="monotone" dataKey="budget" stroke="#82ca9d" strokeWidth={3}/>
             </LineChart>
         );
     }

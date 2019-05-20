@@ -1,0 +1,40 @@
+
+body {
+  min-height: 100%;
+  position: relative;
+  padding-bottom: 155px;
+}
+
+.footer {
+  background-color: #f9f8f8;
+  font-family: "Quicksand", sans-serif;
+  height: 155px;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  padding-left: 3%;
+  padding-right: 3%;
+  width: 100%;
+}
+
+.text-left {
+  font: #7b7b7b;
+  width: 220px;
+  top: 20px;
+  left: 0;
+  position: relative;
+  padding-bottom: 8px;
+}
+.topright {
+  position: absolute;
+  top: 20px;
+  right: 3%;
+  font-size: 14px;
+}
+
+.bottomright {
+  position: absolute;
+  bottom: 5%;
+  right: 3%;
+  font-size: 12px;
+}

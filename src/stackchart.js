@@ -45,7 +45,7 @@ const data = [
     },
 ];
 
-export default class Example extends PureComponent {
+export default class barchart extends PureComponent {
     render() {
         return (
             <BarChart
@@ -53,7 +53,7 @@ export default class Example extends PureComponent {
                 height={400}
                 data={data}
                 margin={{
-                    top: 20, right: 30, left: 20, bottom: 5,
+                    top: 20, right: 30, left: 20, bottom: 20,
                 }}
             >
                 <CartesianGrid strokeDasharray="3 3" />
