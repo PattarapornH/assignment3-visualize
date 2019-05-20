@@ -46,8 +46,6 @@ const data = [
 ];
 
 export default class Example extends PureComponent {
-    static jsfiddleUrl = 'https://jsfiddle.net/alidingling/90v76x08/';
-
     render() {
         return (
             <BarChart
@@ -63,10 +61,10 @@ export default class Example extends PureComponent {
                 <YAxis />
                 <Tooltip />
                 <Legend />
-                <Bar dataKey="TourismAndSports" stackId="a" fill="#8884d8" />
-                <Bar dataKey="SportAndRecreation" stackId="a" fill="#82ca9d" />
-                <Bar dataKey="TourismDevelopment" stackId="a" fill="#ffc658" />
-                <Bar dataKey="PhysicalEducation" stackId="a" fill="#aad6d8" />
+                <Bar dataKey="TourismAndSports" fill="#8884d8" />
+                <Bar dataKey="SportAndRecreation"  fill="#82ca9d" />
+                <Bar dataKey="TourismDevelopment"  fill="#ffc658" />
+                <Bar dataKey="PhysicalEducation"  fill="#aad6d8" />
             </BarChart>
         );
     }
