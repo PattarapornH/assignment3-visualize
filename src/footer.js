@@ -6,7 +6,7 @@ class footer extends Component {
       <React.Fragment>
         <div className="footer">
           <div className="text-left">
-            <p className="p1">Ministry of Tourism & Sports</p>
+            <p>Ministry of Tourism & Sports</p>
           </div>
           <div className="topright">
             Pattaraporn Hanphadungkit 5910502026

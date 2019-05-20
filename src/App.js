@@ -4,6 +4,7 @@ import Stackchart from './stackchart';
 import { Navbar } from 'react-bootstrap';
 import Footer from './footer'
 import './App.css'
+import IncomeBudget from './income_budget'
 class Main extends Component {
   render() {
     return (
@@ -20,26 +21,32 @@ class Main extends Component {
           หน่วยงานคือ
           <div className="text-list">
             <li>
-              {" "}
-              สำนักงานปลัดกระทรวงการท่องเที่ยวและกีฬา(Tourism and Sports){" "}
+              สำนักงานปลัดกระทรวงการท่องเที่ยวและกีฬา (Tourism and Sports){" "}
             </li>
-            <li> กรมพลศึกษา(Sport and Recreation) </li>
-            <li> กรมการท่องเที่ยว(Tourism development) </li>
-            <li> สถาบันการพลศึกษา(Physical Education) </li>
+            <li> กรมพลศึกษา (Sport and Recreation) </li>
+            <li> กรมการท่องเที่ยว (Tourism development) </li>
+            <li> สถาบันการพลศึกษา (Physical Education) </li>
           </div>
         </p>
         <hr />
 
         <div>
-          <p>
+          <p style={{ margin: "2%" }}>
             กราฟแสดงงบประมาณของกระทรวงการท่องเที่ยวและกีฬาตั้งแต่ปีพ.ศ.2550-2562
+            (ล้านบาท)
           </p>
           <Sum_budget />
 
-          <p>
+          <p style={{ margin: "2%" }}>
             กราฟเปรียบเทียบงบประมาณที่แต่ละหน่วยงานได้รับในแต่ละปีตั้งแต่พ.ศ.2550-2562
+            (ล้านบาท)
           </p>
           <Stackchart />
+
+          <p style={{ margin: "2%" }}>
+            กราฟเปรียบเทียบค่าเฉลี่ยในช่วงีพ.ศ.2550-2562 ของงบประมาณที่แต่ละหน่วยงานได้รับ (ล้านบาท)
+          </p>
+          <IncomeBudget />
         </div>
 
         <div className="text-box">
