@@ -48,23 +48,31 @@ const data = [
 class Sum_budget extends Component {
     render() {
         return (
-            <LineChart
-                width={900}
-                height={400}
-                data={data}
-                margin={{
-                    top: 20, right: 30, left: 20, bottom: 20,
-                }}
-            >
-                <CartesianGrid strokeDasharray="3 3" />
-                <XAxis dataKey="name" />
-                <YAxis />
-                <Tooltip />
-                <Legend />
-                <Brush/>
-                {/* <Line type="monotone" dataKey="pv" stroke="#8884d8" activeDot={{ r: 8 }} /> */}
-                <Line type="monotone" dataKey="budget" stroke="#82ca9d" strokeWidth={3}/>
-            </LineChart>
+          <LineChart
+            width={900}
+            height={400}
+            data={data}
+            margin={{
+              top: 20,
+              right: 30,
+              left: 20,
+              bottom: 20
+            }}
+          >
+            <CartesianGrid strokeDasharray="3 3" />
+            <XAxis dataKey="name" />
+            <YAxis />
+            <Tooltip />
+            <Legend />
+            <Brush />
+            {/* <Line type="monotone" dataKey="pv" stroke="#8884d8" activeDot={{ r: 8 }} /> */}
+            <Line
+              type="monotone"
+              dataKey="budget"
+              stroke="#2874A6"
+              strokeWidth={3}
+            />
+          </LineChart>
         );
     }
 }
