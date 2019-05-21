@@ -69,7 +69,7 @@ class Sum_budget extends Component {
             <Line
               type="monotone"
               dataKey="budget"
-              stroke="#2874A6"
+              stroke="#7ad539"
               strokeWidth={3}
             />
           </LineChart>
