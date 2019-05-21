@@ -5,43 +5,43 @@ import {
 
 const data = [
     {
-        name: "2550", TourismAndSports: 399.2097, SportAndRecreation: 654.4969, TourismDevelopment: 663.0308, PhysicalEducation: 1683.2626
+        name: "2550", สำนักปลัดกระทรวงการท่องเที่ยวและกีฬา: 399.2097, กรมพลศึกษา: 654.4969, กรมการท่องเที่ยว: 663.0308, สถาบันการพลศึกษา: 1683.2626
     },
     {
-        name: "2551", TourismAndSports: 437.4953, SportAndRecreation: 699.2109, TourismDevelopment: 688.2617, PhysicalEducation: 1820.0321
+        name: "2551", สำนักปลัดกระทรวงการท่องเที่ยวและกีฬา: 437.4953, กรมพลศึกษา: 699.2109, กรมการท่องเที่ยว: 688.2617, สถาบันการพลศึกษา: 1820.0321
     },
     {
-        name: "2552", TourismAndSports: 818.3279, SportAndRecreation: 737.1717, TourismDevelopment: 786.0635, PhysicalEducation: 2097.6831
+        name: "2552", สำนักปลัดกระทรวงการท่องเที่ยวและกีฬา: 818.3279, กรมพลศึกษา: 737.1717, กรมการท่องเที่ยว: 786.0635, สถาบันการพลศึกษา: 2097.6831
     },
     {
-        name: "2553", TourismAndSports: 608.2161, SportAndRecreation: 832.9235, TourismDevelopment: 741.0726, PhysicalEducation: 1930.929
+        name: "2553", สำนักปลัดกระทรวงการท่องเที่ยวและกีฬา: 608.2161, กรมพลศึกษา: 832.9235, กรมการท่องเที่ยว: 741.0726, สถาบันการพลศึกษา: 1930.929
     },
     {
-        name: "2554", TourismAndSports: 1546.1861, SportAndRecreation: 1887.5616, TourismDevelopment: 1569.1006, PhysicalEducation: 2014.6848
+        name: "2554", สำนักปลัดกระทรวงการท่องเที่ยวและกีฬา: 1546.1861, กรมพลศึกษา: 1887.5616, กรมการท่องเที่ยว: 1569.1006, สถาบันการพลศึกษา: 2014.6848
     },
     {
-        name: "2555", TourismAndSports: 1622.8008, SportAndRecreation: 3858.0925, TourismDevelopment: 2623.8189, PhysicalEducation: 2159.8328
+        name: "2555", สำนักปลัดกระทรวงการท่องเที่ยวและกีฬา: 1622.8008, กรมพลศึกษา: 3858.0925, กรมการท่องเที่ยว: 2623.8189, สถาบันการพลศึกษา: 2159.8328
     },
     {
-        name: "2556", TourismAndSports: 1451.9125, SportAndRecreation: 4166.7834, TourismDevelopment: 3932.5666, PhysicalEducation: 2374.704
+        name: "2556", สำนักปลัดกระทรวงการท่องเที่ยวและกีฬา: 1451.9125, กรมพลศึกษา: 4166.7834, กรมการท่องเที่ยว: 3932.5666, สถาบันการพลศึกษา: 2374.704
     },
     {
-        name: "2557", TourismAndSports: 1272.4315, SportAndRecreation: 5255.0813, TourismDevelopment: 4933.1978, PhysicalEducation: 2346.3748
+        name: "2557", สำนักปลัดกระทรวงการท่องเที่ยวและกีฬา: 1272.4315, กรมพลศึกษา: 5255.0813, กรมการท่องเที่ยว: 4933.1978, สถาบันการพลศึกษา: 2346.3748
     },
     {
-        name: "2558", TourismAndSports: 1154.657, SportAndRecreation: 1612.8714, TourismDevelopment: 2817.3736, PhysicalEducation: 2346.9233
+        name: "2558", สำนักปลัดกระทรวงการท่องเที่ยวและกีฬา: 1154.657, กรมพลศึกษา: 1612.8714, กรมการท่องเที่ยว: 2817.3736, สถาบันการพลศึกษา: 2346.9233
     },
     {
-        name: "2559", TourismAndSports: 1087.7355, SportAndRecreation: 1411.683, TourismDevelopment: 1899.9213, PhysicalEducation: 2737.4129
+        name: "2559", สำนักปลัดกระทรวงการท่องเที่ยวและกีฬา: 1087.7355, กรมพลศึกษา: 1411.683, กรมการท่องเที่ยว: 1899.9213, สถาบันการพลศึกษา: 2737.4129
     },
     {
-        name: "2560", TourismAndSports: 692.141, SportAndRecreation: 1361.0434, TourismDevelopment: 1236.2074, PhysicalEducation: 2651.09
+        name: "2560", สำนักปลัดกระทรวงการท่องเที่ยวและกีฬา: 692.141, กรมพลศึกษา: 1361.0434, กรมการท่องเที่ยว: 1236.2074, สถาบันการพลศึกษา: 2651.09
     },
     {
-        name: "2561", TourismAndSports: 371.8843, SportAndRecreation: 1343.7178, TourismDevelopment: 249.6015, PhysicalEducation: 1836.2297
+        name: "2561", สำนักปลัดกระทรวงการท่องเที่ยวและกีฬา: 371.8843, กรมพลศึกษา: 1343.7178, กรมการท่องเที่ยว: 249.6015, สถาบันการพลศึกษา: 1836.2297
     },
     {
-        name: "2562", TourismAndSports: 900.57, SportAndRecreation: 1134.8483, TourismDevelopment: 1775.0818, PhysicalEducation: 2264.4972
+        name: "2562", สำนักปลัดกระทรวงการท่องเที่ยวและกีฬา: 900.57, กรมพลศึกษา: 1134.8483, กรมการท่องเที่ยว: 1775.0818, สถาบันการพลศึกษา: 2264.4972
     },
 ];
 
@@ -61,10 +61,10 @@ export default class barchart extends PureComponent {
                 <YAxis />
                 <Tooltip />
                 <Legend />
-                <Bar dataKey="TourismAndSports" fill="#8884d8" />
-                <Bar dataKey="SportAndRecreation"  fill="#82ca9d" />
-                <Bar dataKey="TourismDevelopment"  fill="#ffc658" />
-                <Bar dataKey="PhysicalEducation"  fill="#aad6d8" />
+                <Bar dataKey="สำนักปลัดกระทรวงการท่องเที่ยวและกีฬา" fill="#8884d8" />
+                <Bar dataKey="กรมพลศึกษา"  fill="#82ca9d" />
+                <Bar dataKey="กรมการท่องเที่ยว"  fill="#ffc658" />
+                <Bar dataKey="สถาบันการพลศึกษา"  fill="#aad6d8" />
             </BarChart>
         );
     }

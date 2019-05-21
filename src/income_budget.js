@@ -12,19 +12,19 @@ import {
 
 const data = [
   {
-    name: "Tourism and Sports",
+    name: "สำนักปลัดกระทรวงการท่องเที่ยวและกีฬา",
     Average: 951.043669
   },
   {
-    name: "Sport and Recreation",
+    name: "กรมพลศึกษา",
     Average: 1919.652746
   },
   {
-    name: "Tourism development",
+    name: "กรมการท่องเที่ยว",
     Average: 1839.638315
   },
   {
-    name: "Physical Education",
+    name: "สถาบันการพลศึกษา",
     Average: 2174.127407
   }
 ];
